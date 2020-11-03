@@ -1,0 +1,49 @@
+pre {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    font-size: 20px;
+    background-color:lightslategray;
+    
+}
+div.nav-fixed {
+    width: 100%;
+    height: 40px;
+    background-color:lightgreen;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+p.poem {
+    font-family: fantasy;
+    font-size: 20px;
+    color: green;
+}
+img{
+        display: block;
+        size: 45px;
+        background-color: lightgreen;
+        padding: 20px;
+        border: 10px solid lightslategray;
+        margin: 20px;
+    }
+
+    h1:hover {
+        color: skyblue;
+        background-color: grey;
+    }
+    h1 {
+        font-size: 3rem;
+        width: 50%;
+    }
+    tr {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: lightgreen;
+        color: black;
+        font-size: 20px;
+    }
+   ol {
+        font-family: monospace;
+        color:green;
+        font-size: 20px;
+   } 
