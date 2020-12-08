@@ -5,28 +5,51 @@ pre {
     background-color:lightslategray;
     
 }
-div.nav-fixed {
-    width: 100%;
-    height: 40px;
-    background-color:lightgreen;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
+h1{
+    color: yellowgreen;
+}
+img{
+    display: block;
+    size: 45px;
+    background-color: lightgreen;
+    padding: 20px;
+    border: 10px solid lightslategray;
+    margin: 20px;
+    transform: rotate(0deg);
+    transition: 1s;
 }
 p.poem {
     font-family: fantasy;
     font-size: 20px;
     color: green;
 }
-img{
-        display: block;
-        size: 45px;
-        background-color: lightgreen;
-        padding: 20px;
-        border: 10px solid lightslategray;
-        margin: 20px;
+
+#circle{
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+div.controls {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
     }
+div.controls h3 {
+    margin: 15px 0;
+    color: purple;
+    text-align: center;
+    
+}
+#upBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+#downBtn{
+    width: 15px;
+    cursor: pointer;
+}
 
     h1:hover {
         color: skyblue;
